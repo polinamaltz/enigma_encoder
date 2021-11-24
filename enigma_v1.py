@@ -1,3 +1,6 @@
+from reflector import *
+from rotor import *
+
 def enigma(text, ref, rot1, rot2, rot3):
     l = ''
     txt = ''.join([c for c in text.upper() if c in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'])
